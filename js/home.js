@@ -11,4 +11,7 @@ if(pinNumber=='1234'){
     document.getElementById('balance').innerText=newbalance;
 
 }
+else{
+    alert("Invalid pin number...Please try again");
+}
 })
